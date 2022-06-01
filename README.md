@@ -22,19 +22,20 @@ Implemented use cases:
 
 ## Step by Step to Run Book Library Microservices
 
-Download dan instal Docker melalui pranala berikut ini jika belum memiliki Docker
-Kemudian klik button Create untuk membuat New Dev Environment, kemudian clone branch github dengan link berikut: https://github.com/ElisaCT/book-library-microservices.git
+1. Download dan instal Docker melalui pranala berikut ini https://hub.docker.com/search/?type=edition&offering=community jika belum memiliki Docker
 
-Kemudian klik tombol continue dan tunggu beberapa saat hingga Docker selesai melakukan preparing.
+2. Buka Docker kemudian klik button Create untuk membuat New Dev Environment, kemudian clone branch github dengan link berikut: https://github.com/ElisaCT/book-library-microservices.git
+
+3. Kemudian klik tombol continue dan tunggu beberapa saat hingga Docker selesai melakukan preparing.
 
 
-Buka terminal pada lokasi project dan run:
+4. Buka terminal pada lokasi project dan run:
 '''bash 
 > docker-compose up
-''' 
 
 
-Setelah docker selesai membuat semua service, copy link localhost pada terminal, sebagai contoh kunjungi: 
+5. Setelah docker selesai membuat semua service, copy link localhost pada terminal, sebagai contoh kunjungi: 
 '''bash
 localhost:3003
-'''
+
+jika berhasil, hompage aplikasi book library akan ditampilkan
