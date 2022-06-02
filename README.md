@@ -1,23 +1,24 @@
-# Microservice Example - Library
+# Microservice Implementation - Book Library
 
 
 
 ## Introduction
 
-This is a small example for a Microservice architecture. It consists of three services (book service, customer service, lend service) and an API gateway implemented as Node servers using Express.
+Aplikasi ini merupakan aplikasi dengan Microservice arsitektur dengan tiga servis di dalamnya, yaitu:
+1. book service
+2. costumer service
+3. lends service
 
-The API Gateway also serves as the host for a minimalistic web frontend.
+Aplikasi ini mengginakan API gateway yang diimplementasikan sebagai Node servers menggunakan Express.
 
-All services handle their use cases independently and don't know about the existence of other services.
+Tentunya, setiap servis dapat bekerja secara independen dan tidak mengetahui tentang keberadaan servis lain.
 
-The master branch of this repository contains only the services and frontend while the `camunda` branch adds an additional orchestration layer implemented by the camunda process engine.
 
-Implemented use cases:
-
-* Create a customer
-* Create a book
-* Borrow a book
-* Return a book
+Use case pada aplikasi ini:
+* Menambah costumer
+* menambah buku
+* meminjam buku
+* mengembalikan buku
 
 
 ## Step by Step to Run Book Library Microservices
